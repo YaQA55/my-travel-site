@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мир Путешествий 2026</title>
+    <style>
+        /* Общие стили */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f6;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+                        url('istockphoto-1315152008-612x612.jpg');
+            background-size: cover;
+            background-position: center;
+            color:white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+
+        /* Сетка курортов */
+        .container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        /* Карточка курорта */
+        .card {
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+        }
+
+        .card a {
+            text-decoration: none;
+            color: #ff5733;;
+        }
+
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .card-content {
+            padding: 20px;
+        }
+
+        .card-content h3 {
+            margin: 0 0 10px 0;
+            color: #2c3e50;
+        }
+
+        .card-content p {
+            font-size: 0.9rem;
+            line-height: 1.5;
+            color: #666;
+        }
+
+        .badge {
+            display: inline-block;
+            background: #e67e22;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 0.8rem;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px;
+            background: #2c3e50;
+            color: white;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Исследуй мир в 2026 году</h1>
+    <p>Лучшие направления для Вашего незабываемого отдыха</p>
+</header>
+
+<div class="container">
+    
+    <!-- Курорт 1 -->
+    <div class="card">
+        <a href="https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D0%BB%D1%8C%D0%B4%D0%B8%D0%B2%D1%8B" target="_blank">
+            <img src="C:\Users\Hello Y\Desktop\Сайт\images (1).jpg" alt="Мальдивы">
+            <div class="card-content">
+                <span class="badge">Релакс</span>
+                <h3>Мальдивские острова</h3>
+                <p>Белоснежные пляжи, бирюзовая вода и полное уединение в центре Индийского океана.</p>
+            </div>
+        </a>
+    </div>
+
+    <!-- Курорт 2 -->
+    <div class="card">
+        <a href="https://ru.wikipedia.org/wiki/%D0%90%D0%BB%D1%8C%D0%BF%D1%8B" target="_blank">
+            <img src="C:\Users\Hello Y\Desktop\Сайт\alpy2.jpg" alt="Альпы">
+            <div class="card-content">
+                <span class="badge">Горы</span>
+                <h3>Швейцарские Альпы</h3>
+                <p>Заснеженные вершины и уютные шале для любителей активного зимнего отдыха и свежего воздуха.</p>
+            </div>
+        </a>
+    </div>
+
+    <!-- Курорт 3 -->
+    <div class="card">
+        <a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%B8%D0%BE%D1%82%D0%BE" target="_blank">
+            <img src="C:\Users\Hello Y\Desktop\Сайт\111-50.jpg" alt="Киото">
+            <div class="card-content">
+                <span class="badge">Культура</span>
+                <h3>Киото, Япония</h3>
+                <p>Погрузитесь в атмосферу древней Японии, посетив великолепные храмы и сады сакуры.</p>
+            </div>
+        </a>
+    </div>
+
+</div>
+
+<footer>
+    <p>&copy; 2026 Мой Блог о Путешествиях. Все права защищены.</p>
+</footer>
+
+</body>
+</html>
